@@ -1,0 +1,99 @@
+:root {
+  --first_color: #ffd903;
+  --second_color: #ef3822;
+  --third_color: #fffce9;
+  --bg_color: #FFFFFF;
+}
+
+
+
+body, .separator span, hr.hr-4:after {
+	background: var(--bg_color);
+}
+
+/** main color **/
+
+.slider-handle, .slider-selection, span.dropcap-2, ul.list-2 li:before, .nav-button:hover, .nav-button:focus, hr.hr-3,
+.content em, .infography-1 .infography-icon i, .infography-1 .infography-icon svg, .infography-3.infography i, .ctoa-bg,
+.testimonial-image span, .team-item-1 .team-info, .input-group-addon, .slider-handle, .slider-selection, .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table thead tr:first-child th:hover, .bootstrap-datetimepicker-widget table td span:hover, .bootstrap-datetimepicker-widget table td.active:hover,
+.blog-item.effect-1 ul.tags li a, .blog-item.effect-2 ul.tags li a, .alert.fw-alert-info, .blog-post-tags ul.tags li a, 
+.tour-single-sidebar-price, .tour-single-sidebar-title, .sidebar .widget .tagcloud a, a.comment-reply-link, contact-form-7 .wpcf7-submit, .date-picker-wrapper .first-date-selected, .date-picker-wrapper .last-date-selected,
+.date-picker-wrapper .month-wrapper table .day.checked, .loader, .bg-light, .owl-dots button.active, .promotion-block span, ul.contact-social li a, .tour-list-item-1 p.price span, .tour-list-item-3 p.price span, .sidebar-item ul.tags li a, .blog-post-tags ul.tags li a, .tour-single-sidebar-price, .tour-single-sidebar-title, .sidebar .widget .tagcloud a, .bg-main, .tour-item .img-wrap p.departure, .btn.btn-1,
+.accordion-element.accordion-2 a.toggle, span.badge, .alert-fixed
+
+ {
+	background: var(--first_color) !important;
+}
+
+.nav-menu > li > a.active, .nav-menu > li > a:hover, .nav-menu > li > a.active, .nav-menu > li > a:hover, .btn:hover, .testimonial-item-border:hover .testimonial-info-quote:before, .fw-testimonials .prev, .fw-testimonials .next, .counter-item span, .counter-item i, .modal-form label.error, li.to-section a.active, nav.navigation ul li.active.current_page_item > a
+ {
+	color: var(--first_color) !important;
+}
+
+.contact-form-7 .wpcf7-submit, input.es_textbox_button, .btn.btn-1 {
+	background-color: var(--first_color);
+		border: 1px solid var(--first_color);
+}
+
+.btn.btn-2 {
+  border: 1px solid var(--first_color);
+  border-color: var(--first_color);
+}
+
+.btn.btn-2:hover {
+  background: var(--first_color);
+}
+
+.infography-4.infography img {
+	border-bottom: 3px solid var(--first_color);
+}
+
+.form-control:focus {
+	border-color: var(--first_color);
+}
+
+.nav-button, .testimonial-item-border:hover, a.comment-reply-link  {
+	border: 1px solid var(--first_color);
+}
+
+.tab-1 a.nav-link.active, .tab-1 a.nav-link:hover, .tab-2 a.nav-link.active, .accordion-element.accordion-1 h3.accordion-title:hover, .accordion-element.accordion-1 h3.accordion-title.ui-accordion-header-active, .section-to-block ul.nav-menu li a:hover, .section-to-block ul.nav-menu li a.active, .section-to-block ul.nav-menu li a:hover, .section-to-block ul.nav-menu li a.active {
+	border-bottom: 2px solid var(--first_color);
+}
+
+.ctoa-border {
+	border: 2px solid var(--first_color);
+}
+
+.megamenu-panel {
+	border-top: 2px solid var(--first_color);
+}
+
+.nav-menu > li > .nav-dropdown {
+	border-top: solid 2px var(--first_color);
+}
+
+
+blockquote.blockquote-1 {
+	border-left: 5px solid var(--first_color);
+}
+
+/** second color **/
+
+.tour-item p.price, .alert.fw-alert-danger, .blog-item.effect-2 .blog-item-img .blog-item-date,
+.blog-item.effect-2 .blog-item-img .blog-item-author, .blog-single-info span.blog-item-date,
+.contact-form-7 div.wpcf7-response-output, .date-picker-wrapper .month-wrapper table .day.real-today.checked, 
+.date-picker-wrapper .month-wrapper table .day.real-today.hovering, .date-picker-wrapper .month-wrapper table .day.real-today, ul.features li
+{
+	background: var(--second_color) !important;
+}
+
+.blockquote.blockquote-2:before, span.dropcap-3, label.error, .tour-single-included-item ul li span,
+.tour-single-sidebar-info-item .tour-single-icon span, .contact-form-7 span.wpcf7-not-valid-tip, p.header-info-title,
+.contact-form label.error, .subscribe-form label.error, blockquote.blockquote-2:before,.infography-2.infography i, .infography-2.infography:hover i
+  {
+	color: var(--second_color) !important;
+}
+
+.bg-gray {
+    background-color: var(--third_color);
+}

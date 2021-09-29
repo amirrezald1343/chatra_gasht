@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (QFJ55)
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/IRANSans-web.eot);
+  src: url(../fonts/IRANSans-web.eot) format("embedded-opentype"), url(../fonts/IRANSans-web.woff) format("woff2"), url(../fonts/IRANSans-web.woff) format("woff"), url(../fonts/IRANSans-web.ttf?074c3eef94ce0a3f9f55ecc1b8c9ec37) format("truetype");
+}
+
+
+
+body {
+  font-family: IRANSans, Roboto, Arial !important;
+  font-weight: 300;
+  direction: rtl;
+  background-color: #E2E2E2;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: IRANSans, Roboto, Arial !important;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-small {
+  font-size: 0.8em;
+}
+
+.text-xsmall {
+  font-size: 0.6em;
+}
+
+.text-large {
+  font-size: 1.2em;
+}
+
+.text-xlarge {
+  font-size: 1.4em;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-ultralight {
+  font-weight: 200;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-regular {
+  font-weight: normal;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  font-weight: 900;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+

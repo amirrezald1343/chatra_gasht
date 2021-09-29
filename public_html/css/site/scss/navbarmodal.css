@@ -1,0 +1,8 @@
+.header-cont-items {
+    background-color: white !important;
+    box-shadow: 2px 2px 5px silver;
+}
+.header-ul li a {
+    color: black !important;
+    /* background: white; */
+}

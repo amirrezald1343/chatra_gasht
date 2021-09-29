@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+}
+#iconPicker img {
+    margin-bottom: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.modal-footer {
+    padding-top: 15px;
+}
+#iconPicker img:hover {
+    transform: scale(1.5);
+    transition: all 0.2s;
+}
+.vpd-input-group input{
+    border-left: 0px !important;
+}
+.mapsed-full-window{
+    position: relative !important;
+}
+.nav-tabs-bottom .nav-link.active::before {
+    background-color: #2196f3;
+}
+#place{
+    text-align: center;
+}
+#place .header{
+    display: flex;
+}
+#place .header ul{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#place .header ul li{
+    float: right;
+    text-align: center;
+    margin-top: 11px;
+    font-size: 12px;
+    color: #555;
+}
+.gm-ui-hover-effect{
+    right: -2px !important;
+    top: -4px !important;
+}
+.gm-style .gm-style-iw-c{
+    padding-top: 21px !important;
+}
+ .btn:not(:disabled):not(.disabled){
+    z-index: 1 !important;
+}
+.note-frame .note-editing-area .note-editable{
+    /*margin-top: 55px;*/
+}
+ .deleteprice {
+    position: absolute;
+    top: 0;
+    right: -59px;
+     height: 280px;
+    width: 51px;
+    background: #f9f3f3;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+ .deleteprice .icon-cross2 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    font-size: 33px;
+}
+.dropzone{
+
+}
+.vs__selected-options  .form-control:not(.border-bottom-1):not(.border-bottom-2):not(.border-bottom-3):focus {
+    border-color: transparent !important;
+}
+.v-select.searchable .dropdown-toggle{
+    padding: 5px 0px 5px 0;
+}
+.card-level{
+    background-color: #3f51b5 !important;
+    color: #fff;
+    margin-bottom: 0px !important;
+}
+[data-action]::after{
+    font-size: 2rem !important;
+}
+.card-header .card-title{
+    font-size: 17px !important;
+}
+.card-header .card-title  [class^="icon-"]{
+    font-size: 20px !important;
+}
+.help-tour {
+    font-size: 16px;
+    margin: 0px !important;
+    color: #3f51b5;
+}

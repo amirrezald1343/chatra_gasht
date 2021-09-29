@@ -1,0 +1,3 @@
+Sitemap: https://clicksafar.com/sitemap
+User-agent: *
+Disallow:/api,/favTourList

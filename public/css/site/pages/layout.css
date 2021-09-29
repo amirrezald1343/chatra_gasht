@@ -1,0 +1,92 @@
+@font-face {
+    font-family: IRANSans;
+    src: url(../../../fonts/IRANSans-web.woff) format("woff"),
+    url(../../../fonts/IRANSans-web.ttf) format("truetype");
+}
+
+*{
+    font-family:IRANSans ;
+}
+body{
+    font-family:IRANSans ;
+}
+.owl-carousel.owl-loaded {
+    display: -webkit-box;
+}
+.contact-menu{
+    direction: ltr;
+}
+.main-header{
+    direction: ltr;
+}
+.navigation *{
+    text-align: right;
+}
+.tour-item p.title {
+    text-align: right;
+}
+.infography-1 .infography-text {
+    text-align: center;
+}
+.infography-1 .infography-icon {
+    float: right;
+}
+.dltr{
+    direction: ltr;
+}
+.font10{
+    font-size: 10px !important;
+}
+.font15{
+    font-size: 15px !important;
+}
+.font20{
+    font-size: 20px !important;
+}
+.font30{
+    font-size: 30px !important;
+}
+[class^="ti-"], [class*=" ti-"] {
+    font-family: 'themify' !important;
+}
+.nav-dropdown .nav-dropdown {
+    right: 100% !important;
+    left: -100%;
+}
+.header-info-item a {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.navigation-portrait .nav-menus-wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.header-info-item span {
+    color: white;
+}
+.nav-menu > li{
+    float: right;
+}
+.nav-menu{
+    direction: rtl;
+}
+.nav-menu > li > .nav-dropdown{
+    right: auto !important;
+}
+.icon-aparat {
+    width: 38px;
+    opacity: 0.6;
+    position: relative;
+    top: 5px;
+}
+.icon-aparat:hover{
+    opacity: 1;
+}
+ul.footer-social li a{
+    font-size: 32px !important;
+}
+#crisp-chatbox > div > div > div.crisp-zyxrmn > div > div:nth-child(7){
+    display: none !important;
+}
+.footer-menu  li a {
+    color: #ffd903;
+}
