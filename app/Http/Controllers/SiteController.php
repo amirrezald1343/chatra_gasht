@@ -84,13 +84,12 @@ class SiteController extends Controller
         //dd($randomVideo[0]);
 
 
-
         $favTours = FavoriteTour::with('countries')->where('favorite_tours.status', 'Y')->get();
 
         $blogPosts = Post::where('status', 'active')->orderBy('id', 'DESC')->limit(8)->get();
 
-
-        return view('site.index', [
+        
+        return view('site.home', [
             'ToursMoment' => $ToursMoment,
             'ToursSpecials' => $ToursSpecials,
             'TourIndoors' => $ToursIndoors,
