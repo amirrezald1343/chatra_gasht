@@ -24,8 +24,6 @@
                                 <div class="container">
                                     <div class="row justify-content-center index-slogan">
                                         <div class="col-11 text-center coldivh">
-
-
                                             <h1 class="big-title mb-10  font30 text-center" data-animation="fadeInDown"
                                                 data-timeout="800">کلیک کن سفر کن </h1>
                                             <p class=" bg-main d-inline-block text-center " data-animation="bounceIn"
